@@ -28,7 +28,18 @@ def AngryMob():
 	pass
 
 def OnShip():
-	pass
+	print "You are on the ship and notice that the Capitain or the crew is nowhere to be seen. Angry at the officials for deporting you"
+	print "you decide to release your anger in one of two ways....."
+	print "1: Steer the ship into an iceberg and therefore killing everyone and in the process reenact Titanic"
+	print "2: Do nothing and go Home"
+	input = raw_input()
+	if input == '1':
+		HitIceberg()
+	elif input == '2':
+		HappyEnding()
+	else:
+		Start()
+
 
 def HitIceberg():
 	pass

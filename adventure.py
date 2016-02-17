@@ -25,7 +25,8 @@ def GetDeported():
 	pass
 
 def AngryMob():
-	pass
+	print "You are attacked by an angry mob like in The Simpsons Movie, but there was no sink hole for you to escape down so you died."
+	print "RIP YOU"
 
 def OnShip():
 	pass

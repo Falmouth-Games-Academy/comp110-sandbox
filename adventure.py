@@ -29,20 +29,28 @@ def EncounterDuck():
 		EncounterDuck()
 
 def GetPoisoned():
-  print "You have traveled too far west and accidently swam across a border. You then get discoverd by the border police"
-  print "1: Do you decide to run and stay illegally?"
-  print "2: Do you decide to leave peacefully with the border police?"
-  input = raw_input()
-  if input == '1':
-    AngryMob()
-  elif input == '2':
-    OnShip()
+    print "You have traveled too far west and accidently swam across a border. You then get discoverd by the border police"
+    print "1: Do you decide to run and stay illegally?"
+    print "2: Do you decide to leave peacefully with the border police?"
+    input = raw_input()
+    if input == '1':
+      AngryMob()
+    elif input == '2':
+      OnShip()
+
 
 def PsychoDuck():
 	pass
 
 def GetDeported():
-	pass
+    print "You have traveled too far west and accidently swam across a border. You then get discoverd by the border police"
+    print "1: Do you decide to run and stay illegally?"
+    print "2: Do you decide to leave peacefully with the border police?"
+    input = raw_input()
+    if input == '1':
+      AngryMob()
+    elif input == '2':
+      OnShip()
 
 def AngryMob():
 	print "You are attacked by an angry mob like in The Simpsons Movie, but there was no sink hole for you to escape down so you died."

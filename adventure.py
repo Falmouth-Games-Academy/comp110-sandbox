@@ -19,7 +19,17 @@ def GetPoisoned():
 	pass
 
 def PsychoDuck():
-	pass
+	print "You try being friendly with the duck. The duck doesn't want to be friends. The duck wants nothing but your death. You are paralyzed by fear and can't run. The duck attacks you. You are killed by a duck."
+	print "Game over."
+	
+	print "Play again?"
+	print "1: Yes"
+	print "2: No"
+	input = raw_input()
+	if input == '1':
+		Start()
+	
+	
 
 def GetDeported():
 	pass

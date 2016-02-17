@@ -38,7 +38,7 @@ def OnShip():
 	elif input == '2':
 		HappyEnding()
 	else:
-		Start()
+		OnShip()
 
 
 def HitIceberg():

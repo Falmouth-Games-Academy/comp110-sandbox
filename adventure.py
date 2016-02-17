@@ -29,7 +29,14 @@ def EncounterDuck():
 		EncounterDuck()
 
 def GetPoisoned():
-	pass
+  print "You have traveled too far west and accidently swam across a border. You then get discoverd by the border police"
+  print "1: Do you decide to run and stay illegally?"
+  print "2: Do you decide to leave peacefully with the border police?"
+  input = raw_input()
+  if input == '1':
+    AngryMob()
+  elif input == '2':
+    OnShip()
 
 def PsychoDuck():
 	pass

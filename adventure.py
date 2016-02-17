@@ -16,7 +16,12 @@ def EncounterDuck():
 	pass
 
 def GetPoisoned():
-	pass
+	print "You approach the duck ready to eat it."
+	print "It's so delicious looking you can barely restrain yourself."
+	print "You lunge at the duck and swallow it whole!"
+	print "Two hours later..."
+	print "While eating the duck seemed like a good plan, you hadn't noticed it was a poisoned drug using duck."
+	print "You died."
 
 def PsychoDuck():
 	pass

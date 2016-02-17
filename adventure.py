@@ -31,7 +31,9 @@ def OnShip():
 	pass
 
 def HitIceberg():
-	pass
+	print ('Well since you decided to hit an iceberg. You start to hear screams from the many people on board you are about to kill.')
+	print ('It\'s just as well that they don\'t have lifeboats on board deportation ships as you definitely deserve what your about to get...')
+	print ('DEAD')
 
 def HappyEnding():
 	pass
